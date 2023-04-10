@@ -2,7 +2,6 @@ import React from 'react'
 import logo from "../../Logonetflix.png"
 import {Link} from "react-router-dom"
 // import {BiSearch} from "react-icons/bi"
-// const image=https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png?20201013161117
 export function Header() {
   return (
     <nav className='header'>
