@@ -1,0 +1,52 @@
+
+.profilescreen{
+    background-color: #282c2d;
+    height: 100vh;
+    color: white;
+}
+.profilescreen_body{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    max-width: 1000px;
+    >h1{
+        margin-bottom: 20px;
+        font-size: 50px;
+        font-weight: 500;
+        border-bottom: 1px solid #282c2d;
+    }
+}
+.profilescreendata{
+    display: flex;
+    >img{
+        height: 100px;
+    }
+}
+.profilescreen_matter{
+    margin-left: 10px;
+    width: 100%;
+    >h2{
+        background-color: gray;
+        padding: 15px;
+        font-size: 20px;
+        color: white;
+        padding-left: 20px;
+    }
+    >h3{
+        padding-top: 20px;
+        // margin-top: 10px;
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+}
+.signout_button{
+    width: 100%;
+    padding: 3%;
+    background-color: #e50914;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}

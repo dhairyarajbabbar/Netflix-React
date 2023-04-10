@@ -1,0 +1,64 @@
+*{
+    background-color: transparent;
+    font-family: sans-serif;
+}
+.loginscreen_background{
+    // top: 60px;
+    background-image: url("../loginscreenbackgroundimage.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    height: 720px;
+}
+.fade{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+.signinscreencontent{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    max-width: 80%;
+    text-align: center;
+    margin: auto auto;
+    padding: 5%;
+    >h1, h2, h3{
+        margin-bottom: 20px;
+    }>h1{
+        padding-top: 5%;
+        font-size: 3.5em;
+        font-weight: bolder;
+    }>h2{
+        font-size: 30;
+    }>h3{
+        font-size: 30;
+    }
+
+
+}
+.loginscreeninput{
+    // >form
+    >input{
+        width: 300px;
+        margin-right: 10px;
+        background-color: #333;
+        // &:hover{
+            //     scale: 1.1;
+            // }
+    }
+    >input, button{
+        border-radius: 4px;
+        padding: 20px 15px 20px 15px;
+        border: 0;
+        font-size: large;
+    }
+    >button{
+        width: 150px;
+        font-weight: bolder;
+        background-color: #e50914;
+        cursor: pointer;
+        &:hover{
+            background-color: #c30f18;
+        }
+    }
+}

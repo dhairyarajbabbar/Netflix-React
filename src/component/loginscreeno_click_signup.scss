@@ -1,0 +1,65 @@
+.loginpagecontent{  
+    padding: 5%;  
+    margin: auto auto;
+    max-width: 450px;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,.70);
+    box-sizing: border-box;
+    // display: flex;
+    // flex-direction: column;
+    >form{
+        color: white;
+        background-color: transparent;
+        width: 100%;
+        >input, button{
+            margin-top: 10px;
+            width: 100%;
+            background-color: #333;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            padding: 18px 15px 20px 15px;
+            box-sizing: border-box;
+            font-size: 16px;
+            outline: none;
+        }
+        >button{
+            margin-top: 40px;
+            background-color: #e50914;
+            cursor: pointer;
+        }
+        >h1{
+            color: white;
+            background-color: transparent;
+            margin-bottom: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        >p{
+            color: white;
+            margin-top: 40px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: transparent;
+            >a{
+                background-color: transparent;
+            }
+        }
+    }
+    
+}
+.signupnowtext{
+    background-color: transparent;
+}
+.signupnowunderlined{
+    background-color: transparent;
+    cursor: pointer;
+    &:hover{
+        text-decoration-line: underline;
+    }
+}
+
+// .passwordinput{
+    
+// }
+// .emailinput{
+    
+// }
